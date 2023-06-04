@@ -1,4 +1,4 @@
-module github.com/gdamore/tcell/v2
+module github.com/stefanhaller/tcell/v2
 
 go 1.12
 
