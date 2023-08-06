@@ -43,7 +43,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gdamore/tcell/v2/terminfo"
+	"github.com/stefanhaller/tcell/v2/terminfo"
 )
 
 type termcap struct {
@@ -623,7 +623,7 @@ func dotGoInfo(w io.Writer, terms []*TData) {
 }
 
 var packname = ""
-var tipackname = "github.com/gdamore/tcell/v2/terminfo"
+var tipackname = "github.com/stefanhaller/tcell/v2/terminfo"
 
 func dotGoFile(fname string, terms []*TData) error {
 	w := os.Stdout
